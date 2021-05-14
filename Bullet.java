@@ -13,13 +13,7 @@ public class Bullet extends Actor
         moveBullet();
         rotateBullet();
         shootGun();
-        shootDeer();
     }    
-    
-    public void shootDeer()
-    {
-        
-    }
     
     public void moveBullet()
     {
