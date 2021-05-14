@@ -16,7 +16,11 @@ public class Deer extends Actor
     
     public void move()
     {
-
+        if( isTouching (Bullet.class))
+        {
+            turn( Greenfoot.getRandomNumber(91) - 45 );
+            move(5);
+        }
     }
     
     public void turnAtEdge() 
