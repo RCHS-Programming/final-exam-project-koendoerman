@@ -5,6 +5,8 @@ public class Background extends World
     {    
         super(800, 800, 1); 
         
+        showText( "Congratulations", 400, 400);
+        
         addObject ( new Hunter (), 200, 200);
         
         addObject ( new Bullet (), 200, 200);
@@ -19,6 +21,11 @@ public class Background extends World
         addObject ( new Bush (), 600, 650);
         addObject ( new Bush (), 550, 625);
         
-        
+       
+        if(Greenfoot.isKeyDown("enter"))
+        {
+            Greenfoot.setWorld(new Background2());
+        }
     }
 }
+

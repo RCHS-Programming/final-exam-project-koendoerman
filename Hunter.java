@@ -12,25 +12,8 @@ public class Hunter extends Actor
     {
       moveHunter();
       rotateHunter();
-      checkForPlayer();
-      congratulations();
     }    
-    
-    public void checkForPlayer()
-    {
-       if (isTouching(Deer.class))
-       {
-        removeTouching(Deer.class);
-        removeTouching(Bullet.class);
-        removeTouching(Bush.class);
-        getWorld().removeObject(this);
-       }
-    }
-    
-    public void congratulations()
-    {
-        
-    } 
+
     public void moveHunter()
     {
         if(Greenfoot.isKeyDown("up"))

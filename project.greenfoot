@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Fri May 14 07:49:52 EDT 2021
+#Fri May 14 08:20:11 EDT 2021
 target4.type=ClassTarget
 dependency3.from=Hunter
 target3.height=50
@@ -22,6 +22,7 @@ target2.width=80
 target5.name=Deer
 class.Hunter.image=unnamed.png
 version=3.0.0
+class.Background2.superclass=greenfoot.World
 dependency1.to=Deer
 dependency5.from=Background
 dependency2.to=Bullet
@@ -77,6 +78,7 @@ readme.name=@README
 target2.name=Hunter
 package.numDependencies=8
 class.Turkey.superclass=greenfoot.Actor
+class.Background2.image=images (1).jpg
 dependency8.from=Deer
 class.Deer.image=unnamed (1).png
 class.Background.superclass=greenfoot.World
