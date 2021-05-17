@@ -12,6 +12,15 @@ public class Deer extends Actor
     {
         move();
         turnAtEdge();
+        congratulations();
+    }
+    
+    public void congratulations()
+    {
+        if(isTouching (Hunter.class))
+        {
+            showText("Congratulations", 400, 400);
+        }
     }
     
     public void move()

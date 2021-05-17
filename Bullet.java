@@ -13,16 +13,10 @@ public class Bullet extends Actor
         moveBullet();
         rotateBullet();
         shootGun();
-
+        
     }    
     
-    public void congratulations()
-    {
-        if(isTouching (Deer.class))
-        {
-            getWorld().showText("Congratulations");
-        }
-    }
+   
 
     public void moveBullet()
     {
