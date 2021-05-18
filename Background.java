@@ -5,27 +5,78 @@ public class Background extends World
     {    
         super(800, 800, 1); 
         
-        showText( "Congratulations", 400, 400);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+
         
-        addObject ( new Hunter (), 200, 200);
+        
+        addObject ( new Turkey (), 650, 400);
+        addObject ( new Turkey (), 550, 400);
+        addObject ( new Turkey (), 450, 400);
+     
+        addObject ( new Deer (), 600, 600);
+        addObject ( new Deer (), 400, 600);
+        addObject ( new Deer (), 200, 600);
+        
+        addObject ( new Bear (), 500, 500);
         
         addObject ( new Bullet (), 200, 200);
         
-        addObject ( new Deer (), 600, 600);
+        addObject ( new Hunter (), 200, 200);
         
-        addObject ( new Bush (), 550, 650);
-        addObject ( new Bush (), 600, 650);
-        addObject ( new Bush (), 550, 625);
         
-        addObject ( new Bush (), 225, 250);
-        addObject ( new Bush (), 600, 650);
-        addObject ( new Bush (), 550, 625);
         
-       
-        if(Greenfoot.isKeyDown("enter"))
-        {
-            Greenfoot.setWorld(new Background2());
-        }
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        addObject( new Bush(), Greenfoot.getRandomNumber(700) + 34, Greenfoot.getRandomNumber(700) + 30);
+        
+        
+
     }
 }
 

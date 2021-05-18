@@ -10,34 +10,33 @@ public class Deer extends Actor
     
     public void act() 
     {
-        move();
+        moveWhenShot();
         turnAtEdge();
-        congratulations();
-    }
-    
-    public void congratulations()
-    {
-        if(isTouching (Hunter.class))
-        {
-            showText("Congratulations", 400, 400);
-        }
+        move();
+
     }
     
     public void move()
     {
-        if( isTouching (Bullet.class))
-        {
-            turn( Greenfoot.getRandomNumber(91) - 45 );
-            
-        }
+        move(3);
+        
     }
     
-    public void turnAtEdge() 
+        public void turnAtEdge() 
     {
         if( isAtEdge() )
         {
-            turn(17);
+            setLocation(0, 600);
         }  
+    }  
+    
+    public void moveWhenShot()
+    {
+        if( isTouching (Bullet.class))
+        {
+            removeTouching(Deer.class);
+        }
     }
-
 }
+
+

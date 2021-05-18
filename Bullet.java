@@ -13,10 +13,21 @@ public class Bullet extends Actor
         moveBullet();
         rotateBullet();
         shootGun();
-        
+        moveWhenShot();
     }    
     
-   
+       public void moveWhenShot()
+    {
+        if( isTouching (Deer.class))
+        {
+            removeTouching(Deer.class);
+        }
+        
+        if( isTouching (Turkey.class))
+        {
+            removeTouching(Turkey.class);
+        }
+    }
 
     public void moveBullet()
     {

@@ -1,19 +1,39 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
-/**
- * Write a description of class Turkey here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+import greenfoot.*; 
 public class Turkey extends Actor
 {
-    /**
-     * Act - do whatever the Turkey wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public Turkey()
+    {
+        GreenfootImage image = getImage();
+        image.scale(image.getWidth() - 650, image.getHeight() - 700);
+        setImage(image);
+    }
+    
     public void act() 
     {
-        // Add your action code here.
+        move();
+        moveWhenShot();
+        turnAtEdge();
     }    
+    
+        public void move()
+    {
+        move(-3);
+        
+    }
+    
+    public void turnAtEdge() 
+    {
+        if( isAtEdge() )
+        {
+            setLocation(800, 400);
+        }  
+    }
+    
+            public void moveWhenShot()
+    {
+        if( isTouching (Bullet.class))
+        {
+            removeTouching(Turkey.class);
+        }
+    }
 }
