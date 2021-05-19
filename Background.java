@@ -56,7 +56,7 @@ public class Background extends World
         addObject ( new Deer (), 400, 600);
         addObject ( new Deer (), 200, 600);
         
-        addObject ( new Bear (), 500, 500);
+        addObject ( new Bear (), 900, 100);
         
         addObject ( new Bullet (), 200, 200);
         

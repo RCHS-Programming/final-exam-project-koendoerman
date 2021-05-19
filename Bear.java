@@ -8,12 +8,26 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Bear extends Actor
 {
-    /**
-     * Act - do whatever the Bear wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public Bear()
+    {
+        GreenfootImage image = getImage();
+        image.scale(image.getWidth() - 300, image.getHeight() - 250);
+        setImage(image);
+    }
+    
     public void act() 
     {
-        // Add your action code here.
-    }    
+        bearAttack();
+    }   
+    
+    public void bearAttack()
+    {
+        move(-3);
+        if( isTouching (Hunter.class))
+        {
+            removeTouching(Hunter.class);
+            
+        }
+
+    }
 }

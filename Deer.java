@@ -13,7 +13,6 @@ public class Deer extends Actor
         moveWhenShot();
         turnAtEdge();
         move();
-
     }
     
     public void move()
