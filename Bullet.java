@@ -27,6 +27,12 @@ public class Bullet extends Actor
         {
             removeTouching(Turkey.class);
         }
+        
+        if( isTouching (Bear.class))
+        {
+            removeTouching(Bear.class);
+            
+        }
     }
 
     public void moveBullet()

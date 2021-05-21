@@ -25,7 +25,13 @@ public class Bear extends Actor
         move(-3);
         if( isTouching (Hunter.class))
         {
-            removeTouching(Hunter.class);
+            Greenfoot.stop();
+            
+        }
+        
+        if( isTouching (Bullet.class))
+        {
+            removeTouching(Bear.class);
             
         }
 
